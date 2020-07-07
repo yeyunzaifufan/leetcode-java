@@ -10,7 +10,7 @@
 1. 记录数组有几行几列，有多少个不同于0（或众数元素）的值
 2. 把具有不同值的元素的行列及值记录在一个小规模数组中，从而缩小程序的规模
 ### 1.1.2、实例
-cn.xinghaibay.sparsearray.SparseArray
+[稀疏数组](https://github.com/yeyunzaifufan/leetcode-java/blob/master/algorithms/src/cn/xinghaibay/sparsearray/SparseArray.java)
 
 ## 1.2、队列
 ### 1.2.1、介绍
