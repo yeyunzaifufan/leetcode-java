@@ -17,8 +17,8 @@
 1. 队列是一个有序列表，可以用数组或链表来实现
 2. 遵循先入先出的原则
 ### 1.2.2、实例
-数组队列：cn.xinghaibay.queuearray.QueueArray<br/>
-环形数组队列：cn.xinghaibay.queuearray.CircleArray
+[数组队列](https://github.com/yeyunzaifufan/leetcode-java/blob/master/algorithms/src/cn/xinghaibay/queuearray/QueueArray.java)<br/>
+[环形数组队列](https://github.com/yeyunzaifufan/leetcode-java/blob/master/algorithms/src/cn/xinghaibay/queuearray/CircleArray.java)
 
 ## 1.3、链表
 ### 1.3.1、介绍
@@ -26,5 +26,5 @@
 2. 每个节点包含data域，next域
 3. 各个节点不一定连续存储
 ### 1.3.2实例
-单链表：cn.xinghaibay.linkedlist.SingleLinkedList<br/>
-双向链表：cn.xinghaibay.linkedlist.DoubleLinkedList
+[单链表](https://github.com/yeyunzaifufan/leetcode-java/blob/master/algorithms/src/cn/xinghaibay/linkedlist/SingleLinkedList.java)<br/>
+[双向链表](https://github.com/yeyunzaifufan/leetcode-java/blob/master/algorithms/src/cn/xinghaibay/linkedlist/DoubleLinkedList.java)
