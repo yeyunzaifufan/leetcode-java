@@ -26,5 +26,5 @@ cn.xinghaibay.sparsearray.SparseArray
 2. 每个节点包含data域，next域
 3. 各个节点不一定连续存储
 ### 1.3.2实例
-单链表：cn.xinghaibay.linkedlist.SingleLinkedList
+单链表：cn.xinghaibay.linkedlist.SingleLinkedList<br/>
 双向链表：cn.xinghaibay.linkedlist.DoubleLinkedList
