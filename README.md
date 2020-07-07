@@ -27,3 +27,4 @@ cn.xinghaibay.sparsearray.SparseArray
 3. 各个节点不一定连续存储
 ### 1.3.2实例
 单链表：cn.xinghaibay.linkedlist.SingleLinkedList
+双向链表：cn.xinghaibay.linkedlist.DoubleLinkedList

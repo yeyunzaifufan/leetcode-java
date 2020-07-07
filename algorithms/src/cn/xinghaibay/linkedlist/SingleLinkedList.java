@@ -1,12 +1,12 @@
 package cn.xinghaibay.linkedlist;
 
-class Node{
+class Node1{
     public int id;
     public String name;
     public String nickName;
-    public Node next;
+    public Node1 next;
 
-    public Node(int id, String name, String nickName) {
+    public Node1(int id, String name, String nickName) {
         this.id = id;
         this.name = name;
         this.nickName = nickName;
@@ -14,7 +14,7 @@ class Node{
 
     @Override
     public String toString() {
-        return "Node{" +
+        return "Node1{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", nickName='" + nickName + '\'' +
@@ -24,44 +24,44 @@ class Node{
 
 public class SingleLinkedList {
 
-    private Node head = new Node(0, "", "");
+    private Node1 head = new Node1(0, "", "");
 
-    public void add(Node node){
-        Node temp = head;
+    public void add(Node1 node1){
+        Node1 temp = head;
         while (null!=temp.next){
             temp = temp.next;
         }
-        temp.next = node;
+        temp.next = node1;
     }
 
-    public void addByOrder(Node node){
+    public void addByOrder(Node1 node1){
         boolean flag = false;
-        Node temp = head;
+        Node1 temp = head;
         while (null!=temp.next){
-            if(node.id == temp.next.id){
+            if(node1.id == temp.next.id){
                 return;
-            } else if(node.id < temp.next.id){
+            } else if(node1.id < temp.next.id){
                 flag = true;
-                node.next = temp.next;
-                temp.next = node;
+                node1.next = temp.next;
+                temp.next = node1;
                 break;
             } else{
                 temp = temp.next;
             }
         }
         if(!flag){
-            temp.next = node;
+            temp.next = node1;
         }
     }
 
-    public void update(Node node){
+    public void update(Node1 node1){
         boolean flag = false;
-        Node temp = head;
+        Node1 temp = head;
         while (null!=temp){
-            if(temp.id==node.id){
+            if(temp.id==node1.id){
                 flag = true;
-                temp.name = node.name;
-                temp.nickName = node.nickName;
+                temp.name = node1.name;
+                temp.nickName = node1.nickName;
             }
             temp = temp.next;
         }
@@ -72,7 +72,7 @@ public class SingleLinkedList {
 
     public void delete(int id){
         boolean flag = false;
-        Node temp = head;
+        Node1 temp = head;
         while (null!=temp.next){
             if(temp.next.id==id){
                 flag = true;
@@ -87,7 +87,7 @@ public class SingleLinkedList {
     }
 
     public void showLinkedList(){
-        Node temp = head.next;
+        Node1 temp = head.next;
         while (null!=temp){
             System.out.println(temp.toString());
             temp = temp.next;
