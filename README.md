@@ -19,3 +19,11 @@ cn.xinghaibay.sparsearray.SparseArray
 ### 1.2.2、实例
 数组队列：cn.xinghaibay.queuearray.QueueArray<br/>
 环形数组队列：cn.xinghaibay.queuearray.CircleArray
+
+## 1.3、链表
+### 1.3.1、介绍
+1. 链表是以节点的方式来存储，是链式存储
+2. 每个节点包含data域，next域
+3. 各个节点不一定连续存储
+### 1.3.2实例
+单链表：cn.xinghaibay.linkedlist.SingleLinkedList
